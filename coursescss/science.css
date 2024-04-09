@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap')
+;
+
+
+
+body{
+    list-style: none;
+    margin-top: 30px;
+    color: white;
+}
+
+/* .main{
+    margin: 0px 100px 100px 100px;
+} */
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: underline 1px;
+}
+
+
+/* physics */
+
+
+.physics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #a1a1a1;
+    padding-left: 200px;
+    padding-right: 400px;
+    margin: 0px 100px 20px 100px;
+    box-shadow: #474747 5px 5px;
+    border-radius: 10px;
+}
+
+.ph1{
+    background-color: #737373;
+    /* border: 2px  #121212 solid; */
+    padding: 25px 50px 25px 50px;
+    font-size: 2rem;
+    margin-right: 100px;
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.ph1:hover{
+    color: white;
+    background-color: black;
+}
+
+.phunits{
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+    white-space: nowrap;
+    line-height: 1.8;
+
+}
+
+.physicsimage{
+    margin-left: -50px;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+/* chemistry */
+
+
+.Chemistry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #a1a1a1;
+    padding-left: 200px;
+    padding-right: 400px;
+    margin: 0px 100px 20px 100px;
+    box-shadow: #474747 5px 5px;
+    border-radius: 10px;
+}
+
+.ch1{
+    background-color: #737373;
+    /* border: 2px  #121212 solid; */
+    padding: 25px 50px 25px 50px;
+    font-size: 2rem;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.ch1:hover{
+    color: white;
+    background-color: black;
+}
+
+.chunits{
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+    white-space: nowrap;
+    line-height: 1.8;
+
+}
+
+.chemistryimage{
+    margin-left: -50px;
+    padding-right: 50px;
+}
+
+/* biology */
+
+
+.Biology{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #a1a1a1;
+    padding-left: 200px;
+    padding-right: 400px;
+    margin: 0px 100px 100px 100px;
+    box-shadow: #474747 5px 5px;
+    border-radius: 10px;
+}
+
+.bio1{
+    background-color: #737373;
+    /* border: 2px  #121212 solid; */
+    padding: 25px 50px 25px 50px;
+    font-size: 2rem;
+    margin-right: 100px;
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.bio1:hover{
+    color: white;
+    background-color: black;
+}
+
+.biounits{
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+    white-space: nowrap;
+    line-height: 1.8;
+
+}
+
+.chemistryimage{
+    margin-left: -50px;
+    padding-right: 50px;
+}
+
+
+/* phyunitsbackground */
+
+.pnit1{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.pnit2{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;  
+}
+
+/* chemunitsbackground */
+
+.chu1{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.chu2{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;  
+}
+
+/* biounitbackground */
+
+.blgy1{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.blgy2{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;  
+}
+
+
+/* mediaqueries */
+
+@media (max-width: 600px) {
+    .physics{
+        display: flex;
+        flex-direction: column;
+    }
+}

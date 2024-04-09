@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap')
+;
+body{
+    list-style: none;
+}
+
+#container {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.block {
+  width: 1450px;
+  height: 250px;
+  margin: 15px;
+  display: inline-block; 
+  display: flex;
+    margin-left: -440px;;
+    grid-template-columns: auto auto auto;
+    background-color: #A1A1A1;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+ul {
+  display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+li {
+    border-radius: 15px;
+  background-color: #ffe5e5;
+  width: 231px;
+  height: 210px;
+  justify-content: space-between;
+    margin: 10px;
+}
+#box11, #box22, #box33, #box12, #box23, #box34 {
+  margin-left: 119px;
+  
+ 
+} 
+h1{
+    background-color: #737373;
+    font-size: 2rem;
+    margin-right: -131px;
+    border-radius: 111px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+a:link {
+  color: red;
+}
+.geometryimage{
+    margin-left: 31px;
+    padding-right: 50px;
+}
+.algebra1image{
+    margin-left: 31px;
+    padding-right: 50px;
+}
+.algebra2image{
+    margin-left: 31px;
+    padding-right: 50px;
+}
+.precalculusimage{
+    margin-left: 31px;
+    padding-right: 50px;
+}
+
+
+h1:hover{
+    color: white;
+    background-color: black;
+}
+h1{
+    margin-right: -131px;
+}
+
+box{
+    margin-right: -131px;
+    border-radius: 111px;
+}
+
+ul{
+    margin-left: 50px;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap')
+;
+
+
+
+body{
+    list-style: none;
+    margin-top: 30px;
+    color: white;
+} */
+
+/* .main{
+    margin: 0px 100px 100px 100px;
+} */
+
+
+
+/* 
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: underline 1px;
+}
+ */
+
+/* physics */
+
+/* 
+.physics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #a1a1a1;
+    padding-left: 200px;
+    padding-right: 400px;
+    margin: 0px 100px 20px 100px;
+    box-shadow: #474747 5px 5px;
+    border-radius: 10px;
+}
+
+.ph1{
+    background-color: #737373; */
+    /* border: 2px  #121212 solid; */
+    /* padding: 25px 50px 25px 50px;
+    font-size: 2rem;
+    margin-right: 100px;
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.ph1:hover{
+    color: white;
+    background-color: black;
+}
+
+.phunits{
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+    white-space: nowrap;
+    line-height: 1.8;
+
+}
+
+.physicsimage{
+    margin-left: -50px;
+    padding-right: 50px;
+}
+ */
+
+
+
+
+
+/* chemistry */
+
+/* 
+.Chemistry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #a1a1a1;
+    padding-left: 200px;
+    padding-right: 400px;
+    margin: 0px 100px 20px 100px;
+    box-shadow: #474747 5px 5px;
+    border-radius: 10px;
+} */
+/* 
+.ch1{
+    background-color: #737373; */
+    /* border: 2px  #121212 solid; */
+    /* padding: 25px 50px 25px 50px;
+    font-size: 2rem;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.ch1:hover{
+    color: white;
+    background-color: black;
+}
+
+.chunits{
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+    white-space: nowrap;
+    line-height: 1.8;
+
+}
+
+.chemistryimage{
+    margin-left: -50px;
+    padding-right: 50px;
+} */
+
+/* biology */
+
+/* 
+.Biology{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #a1a1a1;
+    padding-left: 200px;
+    padding-right: 400px;
+    margin: 0px 100px 100px 100px;
+    box-shadow: #474747 5px 5px;
+    border-radius: 10px;
+}
+
+.bio1{
+    background-color: #737373;
+    /* border: 2px  #121212 solid; */
+    padding: 25px 50px 25px 50px;
+    font-size: 2rem;
+    margin-right: 100px;
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.bio1:hover{
+    color: white;
+    background-color: black;
+}
+
+.biounits{
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+    white-space: nowrap;
+    line-height: 1.8;
+
+}
+
+.chemistryimage{
+    margin-left: -50px;
+    padding-right: 50px;
+}
+ */
+
+/* phyunitsbackground */
+
+/* .pnit1{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.pnit2{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;  
+}
+ */
+/* chemunitsbackground */
+/* 
+.chu1{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.chu2{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;  
+}
+ */
+/* biounitbackground */
+
+/* .blgy1{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.blgy2{
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;  
+} */

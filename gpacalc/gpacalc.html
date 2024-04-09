@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GPA CALCULATOR </title>
+    <link rel="stylesheet" href="../gpacalccss/gpacalc.css">
+</head>
+<body>
+
+    <div class="calc">
+        <h1 class= "headgpa"> GPA CALCULATOR </h1>
+
+        <div class="allcourses">
+            <div class="course1">
+                <input type="text" id = "course1" placeholder="Subject"> <br>
+                <input type="number" id = "c1" onchange="seegpa('c1','phere1','course1')"  placeholder="Grade"> <br>
+                <p id= "phere1"> </p>
+            </div>
+
+            <div class="course2">
+                <input type="text" id = "course2"  placeholder="Subject" class = 'subInp'> <br>
+                 <input type="number" id = "c2" onchange="seegpa('c2','phere2', 'course2')" placeholder="Grade"> <br>
+                <p id= "phere2"> </p>
+            </div>
+
+            <div class="course3">
+                <input type="text" id = "course3" placeholder="Subject"> <br>
+                 <input type="number" id = "c3" onchange="seegpa('c3','phere3', 'course3')" placeholder="Grade"> <br>
+                <p id= "phere3"> </p>
+            </div>
+
+            <div class="course4">
+                <input type="text" id = "course4" placeholder="Subject"> <br>
+                 <input type="number" id = "c4" onchange="seegpa('c4','phere4', 'course4')" placeholder="Grade"> <br>
+                <p id= "phere4"> </p>
+            </div>
+
+            
+        </div>
+        <div class="agpa">
+            <button id = "allgpa" onclick="overallgpa('c1', 'c2', 'c3', 'c4')"> CLICK HERE TO SEE OVERALL GPA</button>
+            <h1 id = "pgpa"></h1>
+            <div class="printmain">
+                <h1 id = "aaverageGPAgrade"></h1>
+                <h1 id = "averageGPAgrade"></h1>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+
+    <script src="../JS/gpacalc.js"></script>
+
+</body>
+</html>
